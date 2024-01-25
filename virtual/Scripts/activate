@@ -1,0 +1,6 @@
+#!/bin/bash
+# activate script for virtualenv
+
+export VIRTUAL_ENV="/AyomiTest/virtual"
+export PATH="$VIRTUAL_ENV/bin:$PATH"
+export PS1="(`basename \"$VIRTUAL_ENV\"`) $PS1"
